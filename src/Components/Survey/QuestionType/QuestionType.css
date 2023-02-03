@@ -1,0 +1,23 @@
+input.larger {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+label {
+  display: flex;
+  align-items: center;
+  margin: 30px 60px 0px 40px;
+}
+.radio-main {
+  /* display: flex; */
+  flex-wrap: wrap;
+}
+input.date {
+  margin-top: 10px;
+  width: 40%;
+  height: 50px;
+}
+textarea {
+  width: 60vw;
+}

@@ -1,0 +1,44 @@
+.survey-main {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.survey {
+  min-height: 40vh;
+  width: 50%;
+  padding: 0px 40px;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  position: relative;
+}
+.survey-only {
+  height: 90%;
+}
+.next-btn {
+  background-color: #00bf6f;
+  border: none;
+  padding: 10px 35px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 20px auto;
+  float: right;
+}
+.submit-btn {
+  background-color: #f9be00;
+  border: none;
+  padding: 10px 35px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 20px auto;
+}
+.submit-main {
+  display: flex;
+  justify-content: center;
+}
+.next-btn,
+.submit-btn > span {
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: white;
+}
